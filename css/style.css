@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css?family=Playfair+Display&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Raleway&display=swap');
+/* header */
+h1{
+  color: #76968b;
+  font-family: 'Playfair Display', serif;
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 4em;
+  font-weight: 900px;
+}
+
+ul {
+  background-color: #e5d1b8;
+  opacity: 0.7;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  text-align: center;
+}
+
+li{
+  display: inline;
+}
+
+li a{
+  display: inline-block;
+  padding: 10px;
+  font-family: arial, 'Raleway', sans-serif;
+  font-weight: 400px;
+  font-size: 1em;
+  color: #dd8e58;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+.active, .crumb:hover {
+  border-bottom: 3px solid;
+  border-bottom-color: #476b5e;
+}
+
+.search form {
+  float: right;
+  padding: 6px;
+  margin-top:8px;
+  margin-right: 16px;
+  font-size: 17px;
+  font-family: arial, 'Raleway', sans-serif;
+  color: #dd8e58;
+  text-transform: uppercase;
+}
+
+/* main */
+
+h2{
+  font-family: georgia, 'Playfair',serif;
+  font-weight: 400px;
+  font-size: 3em;
+  color: #476b5e;
+  text-transform: uppercase;
+  position: relative;
+  text-align: left;
+  padding: 20px;
+}
+
+ol{
+  font-family: 'Raleway', sans-serif;
+  font-weight: 400px;
+  font-size: 2em;
+  color:#476b5e;
+  position: relative;
+  padding:20px;
+  
+}
+
+ol li{
+  list-style-type: upper-roman;
+
+}
+
+
+
+
+h3{
+  font-family: georgia, 'Playfair',serif;
+  font-weight: 400px;
+  font-size: 1em;
+  color: #e5d1b8;
+  position: relative;
+  text-align: left;
+  position: justify;
+  padding:20px;
+}
+
+blockquote{
+  font-family: 'Raleway', sans-serif;
+  font-weight: 400px;
+  font-style: italic;
+  padding: 20px;
+
+}
+
+p{
+  font-family: 'Raleway', sans-serif;
+  font-weight: 400px;
+  text-align: justify;
+  line-height: 1.6;
+  padding:20px;
+}
+
+/* footer */
+
+h4{
+  font-family: georgia, 'Playfair',serif;
+  font-weight: 400px;
+  font-size: 1em;
+  color: #476b5e;
+  text-transform: uppercase;
+  position: justify;
+  text-align: left;
+  padding:20px;
+}
+
