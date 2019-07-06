@@ -64,6 +64,7 @@ h2{
   padding: 20px;
 }
 
+/* for some reason ordered list wasn't working after reset*/
 ol{
   font-family: 'Raleway', sans-serif;
   font-weight: 400px;
@@ -82,6 +83,7 @@ ol li{
 
 
 
+
 h3{
   font-family: georgia, 'Playfair',serif;
   font-weight: 400px;
@@ -93,13 +95,14 @@ h3{
   padding:20px;
 }
 
+/* after reset quotation mark was gone so added quotation marks*/
 blockquote{
   font-family: 'Raleway', sans-serif;
   font-weight: 400px;
   font-style: italic;
   padding: 20px;
 
-}
+} 
 
 p{
   font-family: 'Raleway', sans-serif;
